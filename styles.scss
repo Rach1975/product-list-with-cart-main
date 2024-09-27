@@ -212,6 +212,28 @@ h1 {
   }
 }
 
+// Selected
+.js-add-to-cart.selected {
+  background-color: $Red !important;
+  border: none;
+  justify-content: space-around;
+
+  button {
+    color: white;
+  }
+
+  img.increment, img.decrement {
+    border: 1.5px solid white;
+    border-radius: 25%;
+
+    object-fit: contain;
+    width: 16px;
+    height: 16px;
+    padding: 1px;
+    border-radius: 50%;
+  }
+}
+
 
 // Responsive Design
 

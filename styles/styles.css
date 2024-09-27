@@ -169,6 +169,24 @@ h1 {
   margin-left: calc((100% - 220px) / 2);
 }
 
+.js-add-to-cart.selected {
+  background-color: hsl(14, 86%, 42%) !important;
+  border: none;
+  justify-content: space-around;
+}
+.js-add-to-cart.selected button {
+  color: white;
+}
+.js-add-to-cart.selected img.increment, .js-add-to-cart.selected img.decrement {
+  border: 1.5px solid white;
+  border-radius: 25%;
+  object-fit: contain;
+  width: 16px;
+  height: 16px;
+  padding: 1px;
+  border-radius: 50%;
+}
+
 @media (min-width: 768px) {
   .products {
     display: grid;

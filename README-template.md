@@ -75,6 +75,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
   - Difference on defining a path
 - css position
 - Responsive layout breakpoints
+- To style purchase buttons when selected, use javascript to make it interactive.
+- Use functions to better manage my code
 
 
 **Note: Delete this note and the content within this section and replace with your own learnings.**
